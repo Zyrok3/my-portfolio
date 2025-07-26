@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 990 765"
+   id="svg3421"
+   version="1.1">
+   <title
+      id="title3954">Bulletin Border</title>
+   <defs
+      id="defs3423">
+      <filter
+         height="1"
+         y="0"
+         width="1"
+         x="0"
+         color-interpolation-filters="sRGB"
+         id="filter5387">
+         <feMorphology
+            operator="dilate"
+            radius="19.622641509433965 1.0769230769230769"
+            result="result12"
+            id="feMorphology5389" />
+         <feTurbulence
+            seed="25"
+            baseFrequency="0 0.064754098360655751"
+            numOctaves="1"
+            type="turbulence"
+            radius="2.6000000000000001 0.5"
+            result="result1"
+            id="feTurbulence5391" />
+         <feComposite
+            in="result12"
+            operator="in"
+            in2="result1"
+            id="feComposite5393" />
+         <feColorMatrix
+            values="1 0 0 0 0.1 0 1 0 0 0.1 0 0 1 0 0.1 0 0 0 1 0 "
+            result="result5"
+            id="feColorMatrix5395" />
+         <feColorMatrix
+            result="result8"
+            values="1.5 0 0 0 0 0 1.5 0 0 0 0 0 1.5 0 0 0 0 0 1 0 "
+            id="feColorMatrix5397" />
+         <feMerge
+            result="result6"
+            id="feMerge5399">
+            <feMergeNode
+               in="result8"
+               id="feMergeNode5401" />
+         </feMerge>
+         <feTurbulence
+            radius="0.7"
+            type="turbulence"
+            numOctaves="1"
+            baseFrequency="0 0.0918032786885246"
+            seed="0"
+            result="result9"
+            id="feTurbulence5403" />
+         <feComposite
+            operator="in"
+            in="result12"
+            in2="result9"
+            id="feComposite5405" />
+         <feColorMatrix
+            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -0.1 "
+            id="feColorMatrix5407" />
+         <feColorMatrix
+            result="result5"
+            values="0.8 0 0 0 0 0 0.8 0 0 0 0 0 0.8 0 0 0 0 0 1.5 0 "
+            id="feColorMatrix5409" />
+         <feMerge
+            result="result9"
+            id="feMerge5411">
+            <feMergeNode
+               in="result5"
+               id="feMergeNode5413" />
+            <feMergeNode
+               in="result6"
+               id="feMergeNode5415" />
+         </feMerge>
+         <feTurbulence
+            baseFrequency="0.0040983606557377051 0.017213114754098362"
+            type="fractalNoise"
+            numOctaves="10"
+            result="result11"
+            id="feTurbulence5417" />
+         <feDisplacementMap
+            in="result9"
+            result="result10"
+            scale="87.265918"
+            in2="result11"
+            xChannelSelector="A"
+            yChannelSelector="A"
+            id="feDisplacementMap5419" />
+         <feMerge
+            result="result7"
+            id="feMerge5421">
+            <feMergeNode
+               in="SourceGraphic"
+               id="feMergeNode5423" />
+            <feMergeNode
+               in="result10"
+               id="feMergeNode5425" />
+         </feMerge>
+         <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="result13"
+            id="feComposite5427" />
+      </filter>
+      <filter
+         height="1"
+         y="0"
+         width="1"
+         x="0"
+         color-interpolation-filters="sRGB"
+         id="filter5441">
+         <feMorphology
+            operator="dilate"
+            radius="19.622641509433965 1.0769230769230769"
+            result="result12"
+            id="feMorphology5443" />
+         <feTurbulence
+            seed="572"
+            baseFrequency="0 0.064754098360655751"
+            numOctaves="1"
+            type="turbulence"
+            radius="2.6000000000000001 0.5"
+            result="result1"
+            id="feTurbulence5445" />
+         <feComposite
+            in="result12"
+            operator="in"
+            in2="result1"
+            id="feComposite5447" />
+         <feColorMatrix
+            values="1 0 0 0 0.1 0 1 0 0 0.1 0 0 1 0 0.1 0 0 0 1 0 "
+            result="result5"
+            id="feColorMatrix5449" />
+         <feColorMatrix
+            result="result8"
+            values="1.5 0 0 0 0 0 1.5 0 0 0 0 0 1.5 0 0 0 0 0 1 0 "
+            id="feColorMatrix5451" />
+         <feMerge
+            result="result6"
+            id="feMerge5453">
+            <feMergeNode
+               in="result8"
+               id="feMergeNode5455" />
+         </feMerge>
+         <feTurbulence
+            radius="0.7"
+            type="turbulence"
+            numOctaves="1"
+            baseFrequency="0 0.0918032786885246"
+            seed="0"
+            result="result9"
+            id="feTurbulence5457" />
+         <feComposite
+            operator="in"
+            in="result12"
+            in2="result9"
+            id="feComposite5459" />
+         <feColorMatrix
+            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -0.1 "
+            id="feColorMatrix5461" />
+         <feColorMatrix
+            result="result5"
+            values="0.8 0 0 0 0 0 0.8 0 0 0 0 0 0.8 0 0 0 0 0 1.5 0 "
+            id="feColorMatrix5463" />
+         <feMerge
+            result="result9"
+            id="feMerge5465">
+            <feMergeNode
+               in="result5"
+               id="feMergeNode5467" />
+            <feMergeNode
+               in="result6"
+               id="feMergeNode5469" />
+         </feMerge>
+         <feTurbulence
+            baseFrequency="0.0040983606557377051 0.017213114754098362"
+            type="fractalNoise"
+            numOctaves="10"
+            result="result11"
+            id="feTurbulence5471" />
+         <feDisplacementMap
+            in="result9"
+            result="result10"
+            scale="87.265918"
+            in2="result11"
+            xChannelSelector="A"
+            yChannelSelector="A"
+            id="feDisplacementMap5473" />
+         <feMerge
+            result="result7"
+            id="feMerge5475">
+            <feMergeNode
+               in="SourceGraphic"
+               id="feMergeNode5477" />
+            <feMergeNode
+               in="result10"
+               id="feMergeNode5479" />
+         </feMerge>
+         <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="result13"
+            id="feComposite5481" />
+      </filter>
+      <filter
+         height="1"
+         y="0"
+         width="1"
+         x="0"
+         color-interpolation-filters="sRGB"
+         id="filter5483">
+         <feMorphology
+            operator="dilate"
+            radius="19.622641509433965 1.0769230769230769"
+            result="result12"
+            id="feMorphology5485" />
+         <feTurbulence
+            seed="191"
+            baseFrequency="0 0.064754098360655751"
+            numOctaves="1"
+            type="turbulence"
+            radius="2.6000000000000001 0.5"
+            result="result1"
+            id="feTurbulence5487" />
+         <feComposite
+            in="result12"
+            operator="in"
+            in2="result1"
+            id="feComposite5489" />
+         <feColorMatrix
+            values="1 0 0 0 0.1 0 1 0 0 0.1 0 0 1 0 0.1 0 0 0 1 0 "
+            result="result5"
+            id="feColorMatrix5491" />
+         <feColorMatrix
+            result="result8"
+            values="1.5 0 0 0 0 0 1.5 0 0 0 0 0 1.5 0 0 0 0 0 1 0 "
+            id="feColorMatrix5493" />
+         <feMerge
+            result="result6"
+            id="feMerge5495">
+            <feMergeNode
+               in="result8"
+               id="feMergeNode5497" />
+         </feMerge>
+         <feTurbulence
+            radius="0.7"
+            type="turbulence"
+            numOctaves="1"
+            baseFrequency="0 0.0918032786885246"
+            seed="0"
+            result="result9"
+            id="feTurbulence5499" />
+         <feComposite
+            operator="in"
+            in="result12"
+            in2="result9"
+            id="feComposite5501" />
+         <feColorMatrix
+            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -0.1 "
+            id="feColorMatrix5503" />
+         <feColorMatrix
+            result="result5"
+            values="0.8 0 0 0 0 0 0.8 0 0 0 0 0 0.8 0 0 0 0 0 1.5 0 "
+            id="feColorMatrix5505" />
+         <feMerge
+            result="result9"
+            id="feMerge5507">
+            <feMergeNode
+               in="result5"
+               id="feMergeNode5509" />
+            <feMergeNode
+               in="result6"
+               id="feMergeNode5511" />
+         </feMerge>
+         <feTurbulence
+            baseFrequency="0.0040983606557377051 0.017213114754098362"
+            type="fractalNoise"
+            numOctaves="10"
+            result="result11"
+            id="feTurbulence5513" />
+         <feDisplacementMap
+            in="result9"
+            result="result10"
+            scale="87.265918"
+            in2="result11"
+            xChannelSelector="A"
+            yChannelSelector="A"
+            id="feDisplacementMap5515" />
+         <feMerge
+            result="result7"
+            id="feMerge5517">
+            <feMergeNode
+               in="SourceGraphic"
+               id="feMergeNode5519" />
+            <feMergeNode
+               in="result10"
+               id="feMergeNode5521" />
+         </feMerge>
+         <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="result13"
+            id="feComposite5523" />
+      </filter>
+      <filter
+         style="color-interpolation-filters:sRGB;"
+         id="filter5539"
+         x="0"
+         width="1"
+         y="0"
+         height="1">
+         <feTurbulence
+            type="fractalNoise"
+            numOctaves="3"
+            baseFrequency="0.40000000000000002"
+            seed="0"
+            result="result0"
+            id="feTurbulence5541" />
+         <feColorMatrix
+            result="result4"
+            values="0"
+            type="saturate"
+            id="feColorMatrix5543" />
+         <feComposite
+            in="SourceGraphic"
+            in2="result4"
+            operator="arithmetic"
+            k1="1.25"
+            k2="0.5"
+            k3="0.5"
+            result="result2"
+            id="feComposite5545" />
+         <feBlend
+            result="result5"
+            mode="normal"
+            in="result2"
+            in2="SourceGraphic"
+            id="feBlend5547" />
+         <feComposite
+            in="result5"
+            in2="SourceGraphic"
+            operator="in"
+            result="result3"
+            id="feComposite5549" />
+      </filter>
+      <linearGradient
+         gradientUnits="userSpaceOnUse"
+         y2="758.49756"
+         x2="254.68161"
+         y1="778.14337"
+         x1="258.79144"
+         id="linearGradient3833"
+         xlink:href="#linearGradient3827"
+         gradientTransform="matrix(0,0.43929284,-0.43838508,0,1173.9025,833.72091)" />
+      <linearGradient
+         id="linearGradient3827">
+         <stop
+            id="stop3829"
+            offset="0"
+            style="stop-color:#999999;stop-opacity:1" />
+         <stop
+            id="stop3831"
+            offset="1"
+            style="stop-color:#cdcdcd;stop-opacity:0;" />
+      </linearGradient>
+   </defs>
+   <rect
+      transform="matrix(1.0877531,0,0,1.1025128,-42.581687,-37.475731)"
+      y="56.666668"
+      x="62.129623"
+      height="648.51855"
+      width="864.16669"
+      id="rect5537"
+      style="opacity:1;fill:#ffe1c2;fill-opacity:1;stroke:#b28271;stroke-width:0.91315198;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5539)" />
+
+   <!-- Here are the borders beginning -->
+   <g
+      transform="matrix(1.0517234,0,0,0.9682605,-75.581866,-273.9957)"
+      id="g5529">
+      <g
+         id="g5429"
+         transform="translate(-17.31484,4.722144)">
+         <!-- Top face -->
+         <path
+            id="rect4005"
+            d="m 131.85222,301.49266 c -10.83743,0 -19.70508,0.0533 -19.70508,0.11914 0,0.0659 8.86765,8.68761 19.70508,19.16016 l 19.66797,19.36426 818.17968,0.35644 0,-0.69141 19.69336,-19.02929 c 10.83747,-10.47255 19.70507,-19.09426 19.70507,-19.16016 0,-0.0659 -8.8676,-0.11914 -19.70507,-0.11914 l -19.69336,0 -0.0117,0 -818.13282,0 -0.0352,0 -19.66797,0 z"
+            style="opacity:1;fill:#d3b292;fill-opacity:1;stroke:#b28271;stroke-width:0.99095303;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5387)" />
+         <!-- Right face -->
+         <path
+            transform="matrix(0,1,-1,0,836.42205,290.7574)"
+            id="rect4830"
+            d="m 10.735656,724.15577 c 0,0.0659 8.86765,0.11914 19.70508,0.11914 l 19.70508,0 664.783184,0 0.027,0 19.6777,0 c 10.8374,0 19.7031,-0.0533 19.7031,-0.11914 0,-0.0659 -8.8657,-8.68956 -19.7031,-19.16211 l -19.6777,-19.01367 0,-0.70508 -664.820354,0.34375 -19.69531,19.375 c -10.83743,10.47255 -19.70508,19.09621 -19.70508,19.16211 z"
+            style="opacity:1;fill:#d3b292;fill-opacity:1;stroke:#b28271;stroke-width:0.99095315;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5387)" />
+         <!-- Left face -->
+         <path
+            transform="matrix(0,-1,1,0,284,1056)"
+            id="rect_left"
+            d="m 10.735656,724.15577 c 0,0.0659 8.86765,0.11914 19.70508,0.11914 l 19.70508,0 664.783184,0 0.027,0 19.6777,0 c 10.8374,0 19.7031,-0.0533 19.7031,-0.11914 0,-0.0659 -8.8657,-8.68956 -19.7031,-19.16211 l -19.6777,-19.01367 0,-0.70508 -664.820354,0.34375 -19.69531,19.375 c -10.83743,10.47255 -19.70508,19.09621 -19.70508,19.16211 z"
+            style="opacity:1;fill:#d3b292;fill-opacity:1;stroke:#b28271;stroke-width:0.99095315;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5387)" />
+      </g>
+      <!-- Bottom face -->
+      <g
+         id="g5525"
+         transform="translate(-1.5740741,2.5925829e-8)">
+         <path
+            transform="matrix(-1,0,0,-1,1103.9306,1351.309)"
+            style="opacity:1;fill:#d3b292;fill-opacity:1;stroke:#b28271;stroke-width:0.99095303;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5387)"
+            d="m 131.85222,301.49266 c -10.83743,0 -19.70508,0.0533 -19.70508,0.11914 0,0.0659 8.86765,8.68761 19.70508,19.16016 l 19.66797,19.36426 818.17968,0.35644 0,-0.69141 19.69336,-19.02929 c 10.83747,-10.47255 19.70507,-19.09426 19.70507,-19.16016 0,-0.0659 -8.8676,-0.11914 -19.70507,-0.11914 l -19.69336,0 -0.0117,0 -818.13282,0 -0.0352,0 -19.66797,0 z" />
+      </g>
+   </g>
+</svg>
