@@ -1,0 +1,37 @@
+.playfair-display-400 {
+  font-family: "Playfair Display", serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-font-color {
+  color: #CD853F;
+}
+
+/* Additional styles for hover effects */
+@media (min-width: 768px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+/* For mobile click events instead of hover */
+@media (max-width: 767px) {
+  .project-card.active .overlay {
+    opacity: 1 !important;
+  }
+}

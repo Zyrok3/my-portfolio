@@ -1,0 +1,50 @@
+/* Toolkit.css */
+
+.toolkit-section {
+  padding: 1.5rem;
+  background-color: #f9f5f0;
+}
+
+.board-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto; /* centers horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pin-wrapper {
+  position: absolute;
+  z-index: 2;
+  /* translate(-50%, -50%) is applied inline */
+}
+
+.pin-marker {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width & height set inline to 4rem */
+}
+
+.skill-icon i,
+.cert-icon img {
+  font-size: 2.5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.skill-icon i:hover,
+.cert-icon img:hover {
+  transform: scale(1.1);
+  transition: transform 0.15s ease-in-out;
+}
