@@ -79,7 +79,7 @@ const Toolkit: React.FC = () => {
               className="icon-wrapper skill-icon"
               style={{ width: "6rem", height: "6rem" }}
             >
-              <i className={item.icon} title={item.name} />
+              <img src={item.icon} alt={item.name} title={item.name} />
             </div>
           </div>
         ))}
