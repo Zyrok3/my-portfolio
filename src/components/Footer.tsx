@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => (
   <footer className="bg-white text-gray-900 py-8 px-6 border-t border-gray-200">
-    <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="mx-auto flex flex-col md:flex-row items-center justify-between max-w-[90%] gap-4">
       <span className="text-2xl font-bold playfair-display-400 text-gray-900">
         {`{ Felix Reder }`}
       </span>

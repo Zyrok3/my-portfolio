@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         isVisible ? "translate-y-0" : "-translate-y-28"
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center opacity-100">
+      <div className="container mx-auto max-w-[95%] flex justify-between items-center opacity-100">
         <div className="navbar-font-color text- text-2xl font-bold">
           Felix Reder
         </div>
