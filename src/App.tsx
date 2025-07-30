@@ -11,6 +11,7 @@ import AboutMe from "./sections/AboutMe";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SocialLinks from "./components/SocialLinks";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   useEffect(() => {
@@ -24,17 +25,44 @@ function App() {
   }, []);
 
   return (
-    <>
+    <BrowserRouter>
       <SocialLinks />
       <Navbar />
-      <HeroSection />
-      <AboutMe />
-      <Projects />
-      <Awards />
-      <Experiences />
-      <Toolkit />
-      <Footer />
-    </>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <AboutMe />
+              <Projects />
+              <Awards />
+              <Experiences />
+              <Toolkit />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/ViennaHackathon2025"
+          element={
+            <div>
+              <h1>Vienna Hackathon 2025 Project</h1>
+              <p>Details about the Vienna Hackathon 2025 project go here.</p>
+            </div>
+          }
+        />
+        <Route
+          path="/Javascript-RPG-Game"
+          element={
+            <div>
+              <h1> Javascript-RPG-Game </h1>
+              <p> Welcome to my RPG-Game made with HTML + CSS + Javascript</p>
+            </div>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
